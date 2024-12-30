@@ -1,5 +1,7 @@
 body{
     font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -9,10 +11,13 @@ a{
 
 .container-one{
     background-color: #1f2937;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .header-content{
     display: flex;
+    margin-bottom: 45px;
 }
 
 .links{
@@ -20,16 +25,32 @@ a{
     align-items: center;
     flex: 1;
     justify-content: flex-end;
+    gap: 10px;
     
 }
 
 .title-text{
     font-size: 24px;
     color: #f9faf8;
-    margin: 10px;
+    font-weight: bold;
 }
 
 .secondary-text{
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-maintext{
+    font-size: 48px;
     color: #f9faf8;
+    font-weight: 900;
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+}
+
+.header-main{
+    display: flex;   
 }
