@@ -1,11 +1,21 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer, .container-two, .container-three, .container-four{
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header, .footer{
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
 }
 
 a{
@@ -13,10 +23,18 @@ a{
     color: inherit;
 }
 
+
+.links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    padding: 15px;
 }
 
 .title-text{
@@ -27,4 +45,47 @@ a{
 .secondary-text{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#header-button{
+    background-color: #3882f6;
+}
+
+.hero-maintext{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+    margin-bottom: 40px;
+}
+
+.hero-secondary{
+    margin-bottom: 15px;
+    text-align:left;
+}
+
+.gif-jhin{
+    margin-left: 20px;
+}
+
+.information-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
