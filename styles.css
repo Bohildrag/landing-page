@@ -89,11 +89,33 @@ a{
     gap: 25px;
     justify-content: center;
     text-align: center;
+    padding: 15px;
 
 }
 
 .jhin-skin{
     margin-bottom: 5px ;
+}
+
+.container-three{
+    background-color: #e5e7eb;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.quote-sign{
+    text-align: end;
+    margin-bottom: 20px;
 }
 .footer{
     align-items: center;
