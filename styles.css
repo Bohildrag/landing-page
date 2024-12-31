@@ -35,11 +35,13 @@ a{
     justify-content: space-between;
     margin-bottom: 40px;
     padding: 15px;
+    margin-top: 10px;
 }
 
 .title-text{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .secondary-text{
@@ -111,6 +113,7 @@ a{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    padding-top: 12px
 }
 
 .quote-sign{
