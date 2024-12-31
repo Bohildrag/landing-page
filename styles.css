@@ -117,6 +117,39 @@ a{
     text-align: end;
     margin-bottom: 20px;
 }
+
+.action-box{
+    background-color: #3882f6;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-button{
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+.button-right{
+    display: flex;
+}
+
+.container-four{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title-four{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 .footer{
     align-items: center;
     padding-top: 10px;
